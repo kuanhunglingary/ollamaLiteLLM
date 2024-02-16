@@ -10,7 +10,7 @@ ollama create arr-phi --file arr-modelfile
 
 Follow the [video](https://www.youtube.com/watch?v=d1kgnsO2yUs) to run local LLM with ollama webUI 
 Installing with Docker 
-If Ollama is on your computer, use this command: <br>
+Ollama is on my computer. Use the following command: <br>
 ```
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
 ```
